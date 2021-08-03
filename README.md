@@ -1,0 +1,2 @@
+# simpletimer
+Simple CLI timer
