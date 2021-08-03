@@ -4,8 +4,8 @@ name: Generate release-artifacts
 # on events
 on:
   release:
-    types: 
-        - created
+    types:
+      - created
 
 # workflow tasks
 jobs:
@@ -18,6 +18,6 @@ jobs:
       - name: Generate build files
         uses: thatisuday/go-cross-build@v1
         with:
-            platforms: 'linux/amd64, linux/arm, linux/arm64, darwin/amd64, darwin/arm64, windows/amd64, windows/arm'
-            name: 'simpletimer'
-            dest: 'dist'
+          platforms: "linux/amd64, darwin/amd64, windows/amd64"
+          name: "simpletimer"
+          dest: "dist"
