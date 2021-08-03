@@ -5,12 +5,12 @@ Simple CLI timer
 
 Syntax:
 ```
-./clitimer MINUTES
+./simpletimer MINUTES
 
 ```
 
 timer for 5 minutes:
 ```
-./clitimer 5
+./simpletimer 5
 
 ```
